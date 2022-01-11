@@ -1,0 +1,28 @@
+{
+    "name": "lfbellante/package-laravel-italy",
+    "description": "This is a package for the laravel framework witch contains all italy cities, provinces and regions.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luca Francesco Bellante",
+            "email": "lfbellante@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Lfbellante\\PackageLaravelItaly\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lfbellante\\PackageLaravelItaly\\PackageLaravelItalyServiceProvider"
+            ]
+        }
+    }
+}
